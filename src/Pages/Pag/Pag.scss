@@ -1,0 +1,142 @@
+:root {
+  --greencolor: #7ac751;
+  --whiteclor: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&family=Roboto&family=Rubik:wght@300;400;600;800&family=Vina+Sans&display=swap');
+.Pag {
+  width: 100%;
+  height: 11vh;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  background: #f7f8fa;
+  position: relative;
+  
+  .button {
+    position: relative;
+    width: 290px;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    button {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: var(--greencolor);
+      border: none;
+      color: var(--whiteclor);
+
+      font-size: 17px;
+      .menu {
+        font-size: 30px;
+      }
+    }
+
+    .text {
+      width: 100%;
+      position: absolute;
+      top: 11vh;
+      background: #f7f8fa;
+      overflow: hidden;
+      height: 0px;
+      transition: all 0.3s linear;
+
+    
+
+      .n {
+        width: 100%;
+        height: 42px;
+        padding: 15px 30px;
+        color: #555;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        position: relative; 
+        cursor: pointer;
+
+        .m{
+          width: 0;
+          height: 100%;
+          background-color: #5555552c;
+          position: absolute;
+          left: 0;
+          top: 0;
+          transition: all .3s linear;
+        }
+
+        &:hover{
+          .m{
+            width: 100%;
+          }
+        }
+        &:active{
+          transform: scale(.9);
+        }
+      }
+    }
+    .text.active {
+      height: auto;
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    width: 45%;
+    justify-content: space-between;
+    margin-left: 100px;
+    color: #555;
+    font-size: 14px;
+    font-style: normal;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+
+    a{
+      color: #555;
+      text-decoration: none;
+
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+    .active{
+      color: blue;
+    }
+
+    li{
+      cursor: pointer;
+    }
+  }
+  .Cartshop{
+    position: fixed;
+    z-index: 6;
+    right: -100%;
+    width: 400px;
+    height: 80vh;
+    top: 18vh;
+    backdrop-filter: blur(100px);
+    transition: all .2s linear;
+    backdrop-filter: blur(30px);
+  }
+  .Cartshop.active{
+    right: 0;
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+  .Pag{
+    display: none;
+  }
+}
+

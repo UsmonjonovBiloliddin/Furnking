@@ -1,0 +1,299 @@
+{
+    "Trending" : [
+       {
+        "id" : 122,
+        "img" : "../img/box11.png",
+        "name" : "Minimal LCD chair",
+        "price" : "$180",
+        "delprice" : "$250",
+        "chegirma" : "10%",
+         "quantity" : 1
+       } ,
+       {
+        "id" : 272,
+        "img" : "../img/box22.png",
+        "name" : "Minimal LCD chair",
+        "price" : "$120",
+        "delprice" : "$150",
+        "chegirma" : "20%",
+         "quantity" : 1
+       },
+       {
+        "id" : 843,
+        "img" : "../img/box3.png",
+        "name" : "Dining chairs",
+        "price" : "$100",
+        "delprice" : "$120",
+        "chegirma" : "sofiya",
+         "quantity" : 1
+       },
+       {
+        "id" : 4393,
+        "img" : "../img/box4.png",
+        "name" : "Buskbo armchair ",
+        "price" : "$130",
+        "delprice" : "$150",
+        "chegirma" : "13%",
+         "quantity" : 1
+
+       },
+       {
+        "id" : 582,
+        "img" : "../img/box5.png",
+        "name" : "Modern chairs",
+        "price" : "$100",
+        "delprice" : "$120",
+        "chegirma" : "Sole",
+         "quantity" : 1
+       },
+       {
+        "id" : 62525,
+        "img" : "../img/box6.png",
+        "name" : "Plastic dining chair",
+        "price" : "$130",
+        "delprice" : "$150",
+        "chegirma" : "New",
+         "quantity" : 1
+       },
+       {
+        "id" : 7552,
+        "img" : "../img/box7.png",
+        "name" : "Minimal Wood chair",
+        "price" : "$180",
+        "delprice" : "$250",
+        "chegirma" : "13%",
+         "quantity" : 1
+       },
+       {
+        "id" : 857,
+        "img" : "../img/box8.png",
+        "name" : "Elegent wood chair",
+        "price" : "$120",
+        "delprice" : "$150",
+         "quantity" : 1
+       }
+       
+    ],
+    "Produts" : [
+        {
+         "id" : 1,
+         "img" : "../img/p1.png",
+         "name" : "Minimal LCD chair",
+         "price" : "$180",
+         "delprice" : "$250",
+        "chegirma" : "13%",
+         "quantity" : 1
+        } ,
+        {
+         "id" : 2,
+         "img" : "../img/p2.png",
+         "name" : "Modern Sofa",
+         "price" : "$120",
+         "delprice" : "$150",
+        "chegirma" : "Sole",
+         "quantity" : 1
+        },
+        {
+         "id" : 3,
+         "img" : "../img/p3.png",
+         "name" : "Microfiber Sofa",
+         "price" : "$100",
+         "delprice" : "$120",
+        "chegirma" : "New",
+         "quantity" : 1
+        },
+        {
+         "id" : 4,
+         "img" : "../img/p4.png",
+         "name" : "Wood Coffee Tables ",
+         "price" : "$130",
+         "delprice" : "$150",
+        "chegirma" : "15%",
+         "quantity" : 1
+        },
+        {
+         "id" : 5,
+         "img" : "../img/p5.png",
+         "name" : "Acacia Wood Club Chairs",
+         "price" : "$100",
+         "delprice" : "$120",
+        "chegirma" : "Sofiya",
+         "quantity" : 1
+        },
+        {
+         "id" : 6,
+         "img" : "../img/p6.png",
+         "name" : "Amalia Cowhide Bench",
+         "price" : "$130",
+         "delprice" : "$150",
+        "chegirma" : "Sofiya",
+         "quantity" : 1
+        },
+        {
+         "id" : 7,
+         "img" : "../img/p7.png",
+         "name" : "Juno-Hinged Lid Storage",
+         "price" : "$180",
+         "delprice" : "$250",
+        "chegirma" : "Sofiya",
+         "quantity" : 1
+        },
+        {
+         "id" : 8,
+         "img" : "../img/p8.png",
+         "name" : "Delicia 3 Piece Living Room",
+         "price" : "$120",
+         "delprice" : "$150",
+        "chegirma" : "Sofiya",
+         "quantity" : 1
+        }
+        
+     ],
+     "Search" : [
+      {
+       "id" : 1,
+       "img" : "../img/p1.png",
+       "name" : "Minimal LCD chair",
+       "price" : "$180",
+       "delprice" : "$250",
+      "chegirma" : "13%",
+      "quantity" : 1
+      } ,
+      {
+       "id" : 2,
+       "img" : "../img/p2.png",
+       "name" : "Modern Sofa",
+       "price" : "$120",
+       "delprice" : "$150",
+      "chegirma" : "Sole",
+         "quantity" : 1
+      },
+      {
+       "id" : 3,
+       "img" : "../img/p3.png",
+       "name" : "Microfiber Sofa",
+       "price" : "$100",
+       "delprice" : "$120",
+      "chegirma" : "New",
+         "quantity" : 1
+      },
+      {
+       "id" : 4,
+       "img" : "../img/p4.png",
+       "name" : "Wood Coffee Tables ",
+       "price" : "$130",
+       "delprice" : "$150",
+      "chegirma" : "15%",
+      "quantity" : 1
+      },
+      {
+       "id" : 5,
+       "img" : "../img/p5.png",
+       "name" : "Acacia Wood Club Chairs",
+       "price" : "$100",
+       "delprice" : "$120",
+      "chegirma" : "Sofiya",
+         "quantity" : 1
+      },
+      {
+       "id" : 6,
+       "img" : "../img/p6.png",
+       "name" : "Amalia Cowhide Bench",
+       "price" : "$130",
+       "delprice" : "$150",
+      "chegirma" : "Sofiya",
+         "quantity" : 1
+      },
+      {
+       "id" : 7,
+       "img" : "../img/p7.png",
+       "name" : "Juno-Hinged Lid Storage",
+       "price" : "$180",
+       "delprice" : "$250",
+      "chegirma" : "Sofiya",
+         "quantity" : 1
+      },
+      {
+       "id" : 8,
+       "img" : "../img/p8.png",
+       "name" : "Delicia 3 Piece Living Room",
+       "price" : "$120",
+       "delprice" : "$150",
+      "chegirma" : "Sofiya",
+         "quantity" : 1
+      },
+      {
+         "id" : 122,
+         "img" : "../img/box11.png",
+         "name" : "Minimal LCD chair",
+         "price" : "$180",
+         "delprice" : "$250",
+         "chegirma" : "10%",
+          "quantity" : 1
+        } ,
+        {
+         "id" : 272,
+         "img" : "../img/box22.png",
+         "name" : "Minimal LCD chair",
+         "price" : "$120",
+         "delprice" : "$150",
+         "chegirma" : "20%",
+          "quantity" : 1
+        },
+        {
+         "id" : 843,
+         "img" : "../img/box3.png",
+         "name" : "Dining chairs",
+         "price" : "$100",
+         "delprice" : "$120",
+         "chegirma" : "sofiya",
+          "quantity" : 1
+        },
+        {
+         "id" : 4393,
+         "img" : "../img/box4.png",
+         "name" : "Buskbo armchair ",
+         "price" : "$130",
+         "delprice" : "$150",
+         "chegirma" : "13%",
+          "quantity" : 1
+ 
+        },
+        {
+         "id" : 582,
+         "img" : "../img/box5.png",
+         "name" : "Modern chairs",
+         "price" : "$100",
+         "delprice" : "$120",
+         "chegirma" : "Sole",
+          "quantity" : 1
+        },
+        {
+         "id" : 62525,
+         "img" : "../img/box6.png",
+         "name" : "Plastic dining chair",
+         "price" : "$130",
+         "delprice" : "$150",
+         "chegirma" : "New",
+          "quantity" : 1
+        },
+        {
+         "id" : 7552,
+         "img" : "../img/box7.png",
+         "name" : "Minimal Wood chair",
+         "price" : "$180",
+         "delprice" : "$250",
+         "chegirma" : "13%",
+          "quantity" : 1
+        },
+        {
+         "id" : 857,
+         "img" : "../img/box8.png",
+         "name" : "Elegent wood chair",
+         "price" : "$120",
+         "delprice" : "$150",
+          "quantity" : 1
+        }
+      
+   ]
+}

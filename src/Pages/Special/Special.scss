@@ -1,0 +1,444 @@
+:root {
+  --greencolor: #7ac751;
+  --whiteclor: white;
+  --inputcolor: #b0b0b0;
+}
+
+.Special {
+  width: 100%;
+  height: auto;
+  padding: 0px 100px;
+  margin-top: 20px;
+
+  .text {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: var(--Primary, #555);
+
+      /* H2 */
+      font-family: Mulish;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  .boxes {
+    width: 100%;
+    min-height:auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .box {
+      width: 49%;
+      height: auto;
+      position: relative;
+
+
+      &:hover{
+        border: 1px solid gray;
+      }
+
+      .chegirma {
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;    
+        color: white;
+        border-radius: 0px 0px 5px 0px;
+        background: #00b7f1;
+      }
+      .textt {
+        width: 46%;
+        height: 100%;
+        padding: 30px;
+        position: absolute;
+        left: 0;
+        background-color: transparent;
+        z-index: 5;
+
+        h3 {
+          color: var(--Primary, #555);
+          font-family: Mulish;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        p {
+          color: #757575;
+          font-family: Mulish;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 18px; /* 150% */
+          margin-top: 13px;
+        }
+
+        .price {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 22px;
+          .p {
+            color: #ccc;
+            text-align: center;
+            font-family: Mulish;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%; /* 21.6px */
+            letter-spacing: 0.09px;
+            text-decoration-line: strikethrough;
+          }
+          .narx {
+            color: var(--greencolor);
+          }
+
+          button {
+            width: 91px;
+            height: 26px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            background: var(--greencolor);
+            border: none;
+            color: white;
+          }
+        }
+
+        .time {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 22px;
+          .v {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--greencolor);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+            color: white;
+            P {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:447px) {
+    
+.Special {
+    padding: 0px 30px;
+    .text {
+      height: auto;
+  
+      h1 {
+        font-size: 20px;
+      }
+    }
+    .boxes {
+      margin-top: 20px;
+  
+      .box {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+
+        img{
+            height: 100%;
+        }
+        .chegirma {
+          width: 60px;
+          height: 20px;
+          font-size: 12px;
+        }
+        .textt {
+          width: 100%;
+          height: 100%;
+          padding: 10px;
+  
+          h3 {
+            font-size: 17px;
+          }
+  
+          p {
+            font-size: 12px;
+          }
+  
+          .price {
+            .p {
+              font-size: 13px;
+            }
+  
+          }
+  
+          
+        }
+  
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:447px) and (max-width:769px) {
+    
+    .Special {
+        padding: 0px 30px;
+        .text {
+          height: auto;
+      
+          h1 {
+            font-size: 20px;
+          }
+        }
+        .boxes {
+          margin-top: 20px;
+      
+          .box {
+            width: 100%;
+            height: 200px;
+            margin-top: 20px;
+    
+            img{
+                height: 100%;
+            }
+            .chegirma {
+              width: 60px;
+              height: 20px;
+              font-size: 12px;
+            }
+            .textt {
+              width: 250px;
+              height: 100%;
+              padding: 15px;
+      
+              h3 {
+                font-size: 17px;
+              }
+      
+              p {
+                font-size: 12px;
+              }
+      
+              .price {
+                .p {
+                  font-size: 13px;
+                }
+      
+              }
+      
+              
+            }
+      
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width:447px) and (max-width:769px) {
+    
+        .Special {
+            padding: 0px 40px;
+            .text {
+              height: auto;
+          
+              h1 {
+                font-size: 20px;
+              }
+            }
+            .boxes {
+              margin-top: 20px;
+          
+              .box {
+                width: 100%;
+                height: 200px;
+                margin-top: 20px;
+        
+                img{
+                    height: 100%;
+                }
+                .chegirma {
+                  width: 60px;
+                  height: 20px;
+                  font-size: 12px;
+                }
+                .textt {
+                  width: 250px;
+                  height: 100%;
+                  padding: 15px;
+          
+                  h3 {
+                    font-size: 17px;
+                  }
+          
+                  p {
+                    font-size: 12px;
+                  }
+          
+                  .price {
+                    .p {
+                      font-size: 13px;
+                    }
+          
+                  }
+          
+                  
+                }
+          
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+
+
+        @media screen and (min-width:769px) and (max-width:990px) {
+    
+            .Special {
+                padding: 0px 30px;
+                .text {
+                  height: auto;
+              
+                  h1 {
+                    font-size: 20px;
+                  }
+                }
+                .boxes {
+                  margin-top: 20px;
+              
+                  .box {
+                    width: 100%;
+                    height: 250px;
+                    margin-top: 20px;
+            
+                    img{
+                        height: 100%;
+                    }
+                    .chegirma {
+                      width: 60px;
+                      height: 20px;
+                      font-size: 12px;
+                    }
+                    .textt {
+                      width: 250px;
+                      height: 100%;
+                      padding: 20px;
+              
+                      h3 {
+                        font-size: 17px;
+                      }
+              
+                      p {
+                        font-size: 12px;
+                      }
+              
+                      .price {
+                        .p {
+                          font-size: 13px;
+                        }
+              
+                      }
+              
+                      
+                    }
+              
+                    img {
+                      width: 100%;
+                    }
+                  }
+                }
+              }
+            }
+
+            @media screen and (min-width:990px) and (max-width:1200px) {
+    
+                .Special {
+                    padding: 0px 30px;
+                    .text {
+                      height: auto;
+                  
+                      h1 {
+                        font-size: 20px;
+                      }
+                    }
+                    .boxes {
+                      margin-top: 20px;
+                        justify-content: center;
+                      .box {
+                        width: 80%;
+                        height: 250px;
+                        margin-top: 20px;
+                
+                        img{
+                            height: 100%;
+                        }
+                        .chegirma {
+                          width: 100px;
+                          height: 30px;
+                          font-size: 16px;
+                        }
+                        .textt {
+                          width: 250px;
+                          height: 100%;
+                          padding: 20px;
+                  
+                          h3 {
+                            font-size: 17px;
+                          }
+                  
+                          p {
+                            font-size: 12px;
+                          }
+                  
+                          .price {
+                            .p {
+                              font-size: 13px;
+                            }
+                  
+                          }
+                  
+                          
+                        }
+                  
+                        img {
+                          width: 100%;
+                        }
+                      }
+                    }
+                  }
+                }

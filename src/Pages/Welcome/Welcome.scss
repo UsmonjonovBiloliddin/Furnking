@@ -1,0 +1,92 @@
+
+:root {
+    --greencolor: #7ac751;
+    --whiteclor: white;
+  }
+
+.Welcome{
+    width: 100%;
+    height: 40px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--greencolor);
+    color: var(--whiteclor);
+    .login{
+        display: flex;
+        gap: 20px;
+
+        select{
+            background-color: transparent;
+            border: none;
+            color: var(--whiteclor);
+            outline: none;
+
+            option{
+                background-color: grey;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:447px) {
+    .Welcome{
+        padding: 0px 30px;
+        justify-content: center;
+        .text{
+            display: none;
+        }
+        .login{
+            display: flex;
+            select{
+                width: 103px;
+            }
+
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:447px) and (max-width:769px) {
+    .Welcome{
+        padding: 0px 30px;
+        justify-content: center;
+        .text{
+            display: none;
+        }
+        .login{
+            display: flex;
+            select{
+                width: 103px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:990px) {
+    .Welcome{
+        padding: 0px 30px;
+        justify-content: space-between;
+        .text{
+            display:flex;
+        }
+        .login{
+            display: flex;
+            select{
+                width: 103px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+

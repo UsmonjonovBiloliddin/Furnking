@@ -1,0 +1,358 @@
+:root {
+  --greencolor: #7ac751;
+  --whiteclor: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&family=Roboto&family=Rubik:wght@300;400;600;800&family=Vina+Sans&display=swap");
+
+.Dream {
+  width: 100%;
+  height:auto;
+  padding: 10px 100px 20px 400px;
+  .block {
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 50px;
+    border-radius: 1px;
+    background: linear-gradient(
+      103deg,
+      rgba(241, 250, 255, 0.88) 0.89%,
+      #f1faff 101.61%
+    );
+    backdrop-filter: blur(77.5px);
+    .text {
+      width: 40%;
+      height: auto;
+      line-height: 40px;
+      font-family: "Rubik", sans-serif;
+        padding-top: 20px;
+      h1 {
+        color: #2f2f2f;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 530;
+        line-height: normal;
+      }
+      .p {
+        color: rgba(81, 81, 81, 0.71);
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 118.182% */
+        letter-spacing: 1.1px;
+        margin-top: 30px;
+      }
+
+      .top {
+        color: var(--greencolor);
+        font-family: Rubik;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 118.182% */
+        letter-spacing: 1.1px;
+      }
+      button {
+        color: white;
+        margin-top: 30px;
+        border: none;
+        width: 129px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--greencolor);
+
+        &:hover{
+          transform: scale(1.1);
+          box-shadow: 0px 10px 50px 10px rgb(147, 141, 141) ;
+        }
+        &:active{
+          transform: scale(.9);
+        }
+      }
+    }
+    .imeg{
+        width: 60%;
+        display: flex;
+
+        .head{
+          width: 380px;
+
+          img{
+            width: 100%;
+          }
+        }
+
+        .uchlik{
+            width: auto;
+            height:100%;
+            margin-left: 40px;
+            margin-top: -20px;
+            .box{
+              width: 110px;
+              margin-top: 25px;
+              height: 110px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: start;
+              text-align: center;
+              padding: 5px;
+              background-color: var(--whiteclor);
+              cursor: pointer;
+              h4{
+                width: 100%;
+                color: var(--greencolor);
+              }
+              p{
+                font-size: 12px;
+              }
+              img{
+                width: 70%;
+                height: 60%;
+                top: 0;
+              }
+            }
+            
+           
+        }
+    }
+  }
+}
+
+
+@media screen and (max-width:447px) {
+  .Dream{
+    padding: 0px 20px;
+    height: auto;
+    margin-top: 9vh;
+    
+    .block {
+      padding: 20px 0px;
+      height: auto;
+      .text {
+        width: 100%;
+        text-align: center;
+        h1 {
+          font-size: 17px;
+          margin-top: 10px;
+        }
+        .p {
+          font-size: 20px;
+          margin-top: 10px;
+        }
+  
+        .top {
+          font-size: 18px;
+        }
+        button {
+          width: 70%;
+        }
+      }
+      .imeg{
+          height: auto;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-top: 20px;
+          .head{
+            width: 100%;
+            img{
+              width: 100%;
+            }
+          }
+  
+          .uchlik{
+            width: 100%;
+              height: auto;
+              margin-left: 0px;
+              margin-top: 0px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+            
+             
+          }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:447px) and (max-width:769px) {
+  .Dream{
+    padding: 0px 20px;
+    height: auto;
+    margin-top: 9vh;
+
+    .block {
+      padding: 20px 0px;
+      height: auto;
+      .text {
+        width: 100%;
+        text-align: center;
+        h1 {
+          font-size: 25px;
+          margin-top: 10px;
+        }
+        .p {
+          font-size: 22px;
+          margin-top: 10px;
+        }
+  
+        .top {
+          font-size: 20px;
+        }
+        button {
+          width: 200px;
+        }
+      }
+      .imeg{ 
+          height: auto;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          .head{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            img{
+              width: 100%;
+            }
+          }
+  
+          .uchlik{
+            width: 100%;
+              height: auto;
+              margin-left: 0px;
+              margin-top: 0px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+             
+             
+          }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:990px) {
+  .Dream{
+    padding: 0px 40px;
+    height: auto;
+
+    .block {
+      padding: 20px 0px;
+      height: auto;
+      .text {
+        width: 100%;
+        text-align: center;
+        h1 {
+          font-size: 25px;
+          margin-top: 10px;
+        }
+        .p {
+          font-size: 22px;
+          margin-top: 10px;
+        }
+  
+        .top {
+          font-size: 20px;
+        }
+        button {
+          width: 200px;
+        }
+      }
+      .imeg{ 
+          height: auto;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-around;
+          .head{
+            width: 50%;
+            display: flex;
+            margin-left: -30px;
+            img{
+              width: 100%;
+            }
+          }
+  
+          .uchlik{
+            width: 20%;
+              height: 450px;
+              margin-left: 0px;
+              margin-top: 0px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+             
+             
+          }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:990px) and (max-width:1200px) {
+  .Dream{
+    padding: 0px 40px;
+    height: auto;
+
+    .block {
+      padding: 20px 0px;
+      height: auto;
+      .text {
+        width: 100%;
+        text-align: center;
+        h1 {
+          font-size: 25px;
+          margin-top: 10px;
+        }
+        .p {
+          font-size: 22px;
+          margin-top: 10px;
+        }
+  
+        .top {
+          font-size: 20px;
+        }
+        button {
+          width: 200px;
+        }
+      }
+      .imeg{ 
+          height: auto;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-around;
+          .head{
+            width: 50%;
+            display: flex;
+            margin-left: -30px;
+            img{
+              width: 100%;
+            }
+          }
+  
+          .uchlik{
+            width: 15%;
+              height: 420px;
+              margin-left: 0px;
+              margin-top: 0px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+             
+             
+          }
+      }
+    }
+  }
+}
