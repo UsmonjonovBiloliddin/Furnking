@@ -14,6 +14,7 @@ const Boxinfo = () => {
   useEffect(() => {
     getApi();
   }, []);
+
   return (
     <div className="Boxinfo">
       <div className="box">

@@ -11,7 +11,6 @@ import Welcome from '../Pages/Welcome/Welcome'
 import Footer from '../Pages/Footer/Footer'
 import Cart from '../Pages/cart/Cart'
 import Search from '../Companents/Search/Search'
-import Boxinfo from '../Companents/boxinfo/Boxinfo'
 import Heart from '../Companents/Heart/Heart'
 const App = () => {
 
@@ -36,7 +35,6 @@ const App = () => {
         <Route path='/Aboute' element={<Aboute />} /> 
         <Route path='/Heart' element={<Heart heartid={heartid} setHeartid={setHeartid} />} />
         <Route path='/Cantact' element={<Cantact />} /> 
-        <Route path='/Boxinfo/:id' element={<Boxinfo />} />
         <Route path='/Cart' element={<Cart setPraductid={setPraductid} praductid={praductid} />} />
         <Route path='/Search' element={<Search praductid={praductid} searchinfo={searchinfo} setPraductid={setPraductid} heartid={heartid} setHeartid={setHeartid}/>   } />
       </Routes>
