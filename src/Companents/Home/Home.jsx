@@ -8,9 +8,9 @@ import Brend from "../../Pages/Brend/Brend"
 import Images from '../../Pages/Images/Images'
 import Trending from '../../Pages/Trending/Trending'
 import Special from '../../Pages/Special/Special'
-import Products from '../../Pages/Products/Products'
+// import Products from '../../Pages/Products/Products'
 import Slider from '../../Pages/Slider/Slider'
-import Articles from '../../Pages/Articles/Articles'
+// import Articles from '../../Pages/Articles/Articles'
 const Home = ({cartshop , setCartshop , praductid ,setPraductid , heartid ,setHeartid}) => {
   return (
     <div className='Home'>
@@ -20,8 +20,8 @@ const Home = ({cartshop , setCartshop , praductid ,setPraductid , heartid ,setHe
     <Images />
     <Trending praductid={praductid} setPraductid={setPraductid} heartid={heartid} setHeartid={setHeartid} />
     <Special />
-    <Products praductid={praductid} setPraductid={setPraductid}  />
-    <Articles />
+    {/* <Products praductid={praductid} setPraductid={setPraductid}  /> */}
+    {/* <Articles /> */}
     </div>
   )
 }
