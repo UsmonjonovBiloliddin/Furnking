@@ -1,60 +1,60 @@
 
-:root {
-    --greeencolor: #7ac7518e;
-    --whiteclor: white;
-    --inputcolor: #B0B0B0;
-  }
-.Boxinfo{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    .box{
-        width: 1000px;
-        height: 500px;
-        display: flex;
-        justify-content: space-between;
-        padding: 40px;
-        margin-top: 30px;
-        // background-color:var(--greeencolor);
-        backdrop-filter: blur(20px);
-        border-radius: 12px;
-        box-shadow: 0px 0px 90px 15px rgba(117, 218, 117, 0.367);
-        gap: 20px;
-        .back{
-            position: absolute;
-            right: 30px;
-            top: 30px;
-            color: black;
-        }
-        .img{
-            width: 42%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: -20px;
-            img{
-                width: 100%;
-                height: 70%;
-            }
-        }
-        .data{
+// :root {
+//     --greeencolor: #7ac7518e;
+//     --whiteclor: white;
+//     --inputcolor: #B0B0B0;
+//   }
+// .Boxinfo{
+//     width: 100%;
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     // align-items: center;
+//     .box{
+//         width: 1000px;
+//         height: 500px;
+//         display: flex;
+//         justify-content: space-between;
+//         padding: 40px;
+//         margin-top: 30px;
+//         // background-color:var(--greeencolor);
+//         backdrop-filter: blur(20px);
+//         border-radius: 12px;
+//         box-shadow: 0px 0px 90px 15px rgba(117, 218, 117, 0.367);
+//         gap: 20px;
+//         .back{
+//             position: absolute;
+//             right: 30px;
+//             top: 30px;
+//             color: black;
+//         }
+//         .img{
+//             width: 42%;
+//             height: 100%;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             margin-left: -20px;
+//             img{
+//                 width: 100%;
+//                 height: 70%;
+//             }
+//         }
+//         .data{
 
-            width: 54%;
-            height: auto;
-            line-height: 30px;
-            color: rgb(60, 61, 61);
-            margin-top: 30px;
+//             width: 54%;
+//             height: auto;
+//             line-height: 30px;
+//             color: rgb(60, 61, 61);
+//             margin-top: 30px;
 
-            h1{
-                color: rgba(0, 0, 0, 0.621);
-            }
+//             h1{
+//                 color: rgba(0, 0, 0, 0.621);
+//             }
 
-            .info{
-                margin-top: 20px;
-            }
-        }
-    }
-}
+//             .info{
+//                 margin-top: 20px;
+//             }
+//         }
+//     }
+// }
